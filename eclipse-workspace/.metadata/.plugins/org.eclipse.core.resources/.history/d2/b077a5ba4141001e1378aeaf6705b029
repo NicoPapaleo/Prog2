@@ -15,7 +15,7 @@ public class Punto_geometrico {
 	public Punto_geometrico(double x, double y) {
 		this.x = x;
 		this.y = y;
-	} 
+	}
 	
 	//----------Metodos-----------
 	
