@@ -1,0 +1,21 @@
+package Series;
+
+public class Temporada extends Serie {
+	
+	//Atributos
+	private int numeroTemporada;
+	private String episodio;
+
+	public Temporada() {
+		this.numeroTemporada = 0;
+	}
+	//Metodos
+	public String getEpisodio() {
+		return episodio;
+	}
+
+	public int getNumeroTemporada() {
+		return this.numeroTemporada;
+	}
+	
+}

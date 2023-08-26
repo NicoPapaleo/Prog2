@@ -1,0 +1,14 @@
+package Series;
+
+public class Temporada extends Serie {
+	
+	//Atributos
+	private String episodio;
+
+
+	//Metodos
+	public String getEpisodio() {
+		return episodio;
+	}
+	
+}

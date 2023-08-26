@@ -1,0 +1,10 @@
+package Series;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Serie serie = new Serie ("Nico Programa", "Es Nico programando", "Nico", "Ficcion", 3, new int[] {5,7,6});
+		
+	}
+
+}

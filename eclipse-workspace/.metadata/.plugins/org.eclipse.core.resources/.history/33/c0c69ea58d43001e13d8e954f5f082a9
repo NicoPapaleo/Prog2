@@ -1,0 +1,49 @@
+package AgendaPersonal;
+
+public class Reunion {
+	private String lugar;
+	private Persona participante;
+	private String tema;
+	private int duracion;
+	
+	public Reunion(String lugar, Persona participante, String tema, int duracion) {
+		this.lugar = lugar;
+		this.participante = participante;
+		this.tema = tema;
+		this.duracion = duracion;
+	}
+
+	public String getLugar() {
+		return lugar;
+	}
+
+	public void setLugar(String lugar) {
+		this.lugar = lugar;
+	}
+
+	public Persona getParticipante() {
+		return participante;
+	}
+
+	public void setParticipante(Persona participante) {
+		this.participante = participante;
+	}
+
+	public String getTema() {
+		return tema;
+	}
+
+	public void setTema(String tema) {
+		this.tema = tema;
+	}
+
+	public int getDuracion() {
+		return duracion;
+	}
+
+	public void setDuracion(int duracion) {
+		this.duracion = duracion;
+	}
+	
+
+}

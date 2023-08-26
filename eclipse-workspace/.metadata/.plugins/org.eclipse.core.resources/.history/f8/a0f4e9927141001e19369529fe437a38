@@ -1,0 +1,46 @@
+package Series;
+
+public class Serie {
+	
+	//Atributos
+	private Temporada[] temporadas;
+	private String nombre;
+	private String descripcion;
+	private String creador;
+	private String genero;
+
+	public Serie() {
+		this.nombre = "La casa de papel";
+		this.descripcion = "Se roban un banco en españa";
+		this.creador = "Un gallego";
+		this.genero = "Aventura";
+	}
+	
+	//Metodos
+	
+	public String getDescripcion() {
+		return descripcion;
+	}
+	
+	public String getCreador() {
+		return creador;
+	}
+	
+	public String getGenero() {
+		return genero;
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+
+	
+	public void getDatosCompletos() {
+		System.out.println("Nombre: " + this.nombre +
+							//"\nTemporada: " + this.temporada + 
+							"\nGenero: " + this.genero + 
+							"\nDescripcion: " + this.descripcion +
+							"\nCreador: " + this.creador);
+	}
+}

@@ -1,0 +1,34 @@
+package Series;
+
+public class Serie {
+	
+	//Atributos
+	private String titulo;
+	private String descripcion;
+	private String creador;
+	private String genero;
+	private Temporada[] temporadas;
+
+	public Serie(String titulo, String descripcion, String creador, String genero, int cantidadTemporadas, int[]episodiosPorTemporada) {
+		this.titulo = titulo;
+		this.descripcion = descripcion;
+		this.creador = creador;
+		this.genero = genero;
+		temporadas = new Temporada[cantidadTemporadas];
+		for(int i=0; i< cantidadTemporadas;i++) {
+			temporadas[i] = new Temporada(episodiosPorTemporada[i]);
+		}
+	}
+	
+	//Metodos
+	
+
+	
+	public void getDatosCompletos() {
+		System.out.println("Nombre: " + this.titulo +
+							//"\nTemporada: " + this.temporada + 
+							"\nGenero: " + this.genero + 
+							"\nDescripcion: " + this.descripcion +
+							"\nCreador: " + this.creador);
+	}
+}

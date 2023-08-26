@@ -1,0 +1,29 @@
+package Series;
+
+public class Temporada extends Serie {
+	
+	//Atributos
+	private Episodio[] episodios;
+
+	public Temporada(int cantidadEpisodios) {
+		episodios = new Episodio[cantidadEpisodios];
+	}
+	
+	//Metodos
+	public void calificarEpisodio(int numeroEpisodio, int calificacion) {
+		episodios[numeroEpisodio].calificarEpisodio(calificacion);
+	}
+	
+	public int getTotalEpisodiosVistos() {
+		int totalVistos = 0;
+		for(Episodio episodio : episodios) { //for (int i = 0; i < episodios.length; i++) {
+			if(episodio.estaVisto()) {		 //    if (episodios[i].estaVisto()) {
+				totalVistos++;				 //        totalVistos++;
+			}								 //    }
+		}									 //}
+		return totalVistos;
+	}
+	
+
+	
+}

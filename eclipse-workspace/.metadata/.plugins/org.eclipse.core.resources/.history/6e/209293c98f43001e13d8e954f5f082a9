@@ -1,0 +1,13 @@
+package AgendaPersonal;
+
+public class Persona {
+	
+	private int tel;
+	private String email;
+	
+	public Persona(int tel, String email) {
+		this.tel = tel;
+		this.email = email;
+	}
+
+}

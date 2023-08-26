@@ -1,0 +1,16 @@
+package ElementosGeometricos;
+
+public class Rectangulo {
+	
+	Vertice verticeX1 = new Vertice();
+	Vertice verticeX2 = new Vertice();
+	Vertice verticeY1 = new Vertice();
+	Vertice verticeY2 = new Vertice();
+
+	
+	//--------Contructores------
+	public Rectangulo() { //Valores por defecto
+		
+	}
+	
+}
