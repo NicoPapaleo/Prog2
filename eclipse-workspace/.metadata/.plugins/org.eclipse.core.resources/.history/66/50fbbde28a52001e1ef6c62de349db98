@@ -1,0 +1,13 @@
+package RegistroEmpresa;
+
+import java.util.ArrayList;
+
+public class SistemaDeRegistro {
+	
+	private ArrayList<Persona> personas;
+	
+	public SistemaDeRegistro() {
+		personas = new ArrayList<>();
+	}
+
+}

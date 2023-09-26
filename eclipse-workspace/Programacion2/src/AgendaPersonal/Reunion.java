@@ -21,7 +21,7 @@ public class Reunion {
 		this.asistentes = new ArrayList<Persona>();
 	}
 	
-	public String datosReunion() {
+	public String getDatosReunion() {
 		return "Lugar: " + this.getLugar() + 
 				//"\nFecha: " this.getFechaReunion() +
 				"\nHora: " + this.getInicioReunion() +

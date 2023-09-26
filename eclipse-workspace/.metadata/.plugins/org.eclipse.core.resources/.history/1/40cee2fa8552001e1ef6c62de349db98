@@ -1,0 +1,13 @@
+package RegistroEmpresa;
+
+import java.util.ArrayList;
+
+public class Jerarquico extends Empleado {
+	private ArrayList<Empleado> empleados;
+
+	public Jerarquico(String cargo, String nombre, String apellido, int edad, int numLegajo, double sueldo) {
+		super(cargo, nombre, apellido, edad, numLegajo, sueldo);
+		empleados = new ArrayList<Empleado>;
+	}
+
+}

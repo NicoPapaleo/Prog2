@@ -1,0 +1,31 @@
+package RegistroEmpresa;
+
+import java.util.ArrayList;
+
+public class Jerarquico extends Empleado {
+	private ArrayList<Empleado> empleados;
+
+	public Jerarquico(String cargo, String nombre, String apellido, int edad, int numLegajo, double sueldo) {
+		super(cargo, nombre, apellido, edad, numLegajo, sueldo);
+		empleados = new ArrayList<>();
+	}
+	
+	@Override
+	public String toString() {
+		 String infoEmpleado = super.toString();
+		 if(!empleados.isEmpty()) {
+			 for(int i=0; i < empleados.size();i++) {
+				 infoEmpleado+= "\n" + empleados.get(i);
+			 };
+			 else {
+				 System.out.println("No tiene empleados a cargo.");
+			 };
+		 }
+		 return infoEmpleado;
+	}
+	
+	public void addEmpleado(Empleado empleado) {
+		empleados.add(empleado);
+	}
+
+}

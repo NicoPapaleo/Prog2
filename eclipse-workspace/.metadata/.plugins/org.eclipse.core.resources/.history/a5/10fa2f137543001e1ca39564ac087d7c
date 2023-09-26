@@ -1,5 +1,0 @@
-package Electrodomesticos;
-
-public class Heladera extends Electrodomestico {
-
-}

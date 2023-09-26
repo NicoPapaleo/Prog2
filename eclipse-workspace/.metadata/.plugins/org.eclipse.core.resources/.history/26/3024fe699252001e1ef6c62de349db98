@@ -1,0 +1,12 @@
+package RegistroEmpresa;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		SistemaDeRegistro sr = new SistemaDeRegistro();
+		Persona e1 = new Empleado("Empleado", "Nico", "Papaleo", 24, 123, 500);
+
+	}
+
+}

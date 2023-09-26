@@ -1,0 +1,5 @@
+package RegistroEmpresa;
+
+public class UsuarioFinal extends Persona {
+
+}

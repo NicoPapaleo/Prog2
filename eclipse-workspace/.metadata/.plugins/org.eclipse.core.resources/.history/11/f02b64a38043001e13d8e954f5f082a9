@@ -1,5 +1,0 @@
-package FigurasConHerencia;
-
-public class MedioCirculo extends Circulo {
-
-}
